@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .jumbotron {
+            background-color: #e9ecef;
+            padding: 4rem 2rem;
+            margin-bottom: 2rem;
+            border-radius: .3rem;
+        }
+        .jumbotron p{
+          font-size: 1.2rem;
+        }
+        .jumbotron h1{
+          font-size: 3rem;
+        }
+        .auth-buttons {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Note Taking App!</h1>
+            <p class="lead">Your simple and efficient note-taking solution.</p>
+            <hr class="my-4">
+            <p>Organize your thoughts, ideas, and tasks with ease. Register or log in to get started.</p>
+            <div class="auth-buttons">
+                <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}" role="button">Register</a>
+                <a class="btn btn-success btn-lg" href="{{ url_for('login') }}" role="button">Login</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
