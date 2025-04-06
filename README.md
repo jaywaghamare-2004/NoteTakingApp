@@ -49,8 +49,3 @@ This is a simple note-taking application built with Flask and MySQL.
 * Register and log in.
 * Create, view, edit, and delete notes.
 * Notes are stored in a MySQL database.
-
-## Notes
-
-* Remember to replace placeholder database credentials with your actual credentials.
-* For security reasons, do not store sensitive information (like database passwords) directly in your code. Use environment variables instead.
